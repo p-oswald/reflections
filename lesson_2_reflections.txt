@@ -6,8 +6,33 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-* working directory is the dirctory the files are located at
-* staging area are the files that were added to the repository
-* repository is the complete system were git saves your staging area
+* working directory is the dirctory the files are located at that you are currently working on
+* staging area are the files that were added to the repository but not commited yet
+* repository is the complete system were git saves your commits
 
 * distinction offers better overview of which files are in the repo and which are not
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+* staging area offers a place where you can save several files that you want to add as one commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+* adding differnet languages (if a bug is introduced while translating you can find it easier)
+* adding ideas that might corrupt the master 
+* if you want to test different approaches on your problems (creating several branches to follow different solutions)
+
+How do the diagrams help you visualize the branch structure?
+
+* helps to see how commits are connected and how branches are split off
+* you can easily see in which order you build the program
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+* the result of a merge is a combination of the branches merged
+* the diagramm shows which branch was merged and show us which commits were included in the merged branch
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+* automatically merging has the advantag that it is fast
+* git solution to conflicts gives us the most of the advantages eg fast merging with conflict control (no introduction of new errors due to wrong commits)
