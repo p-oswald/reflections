@@ -3,3 +3,24 @@ When would you want to use a remote repository rather than keeping all your work
 * remotly accessable content means you can work from everywhere
 * you could open your work to other ppl easily
 * several ppl can have access from several locations
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+* to be sure that you do not overwrite data
+* to not send unnecesary data
+* to be able to decide when to push/pull
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+# fork: * creates a clone that is linked the source
+        * is used to get a clone that you can work on without permission to change the source
+        * used on github to reference to the source of the clone
+
+# clone: * creates a copy of a source
+         * can exist locally or on github
+         * is used to get the copy of a source without referencing it
+         * used on github and locally
+
+# branch: * creates a clone from a master locally
+          * master and branches are connected and can be fused again later
+          * used locally to try out new code without destroying the master, can be merged again  
