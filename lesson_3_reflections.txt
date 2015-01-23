@@ -24,3 +24,22 @@ Describe the differences between forks, clones, and branches. When would you use
 # branch: * creates a clone from a master locally
           * master and branches are connected and can be fused again later
           * used locally to try out new code without destroying the master, can be merged again  
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+* you can revert to the original state even though you do not have an internet connection
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+* you could collaborate via mail/instant messager
+    + would be faster 
+    - no dirct view of the files, files need to be exchanged and compared 
+* dirct conversation
+    + fastest option (you know what the other person wanted to do)
+    - logisticly hard to do (needs to be at the same place or phoneline needed)
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+* to incorporate changes from another person without directly messing up your master
+* maily security
+* for qa tasks
